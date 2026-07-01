@@ -9,7 +9,7 @@ df = pd.DataFrame({
     'amount': [100, 120, 90, 150, 130, 200, 180, 220, 210, 250]
 })
 
-# Inserting 2 new rows
+# Inserting 2 new columns
 df['prev_amount'] = df.groupby('customer_id')['amount'].shift(1)
 df['pct_change'] = ((df['amount']-df['prev_amount'])/df['prev_amount']) * 100 # or better: df.groupby('customer_id')['amount'].pct_change() * 100
 

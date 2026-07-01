@@ -9,7 +9,7 @@ df = pd.DataFrame({
     'amount': [100, 120, 90, 150, 130, 170, 200, 180, 220, 210, 250, 240]
 })
 
-# Insert 2 new rows
+# Insert 2 new columns
 df['rolling_avg_3'] = df.groupby('customer_id')['amount'].rolling(3).mean().reset_index(level=0, drop=True)
 """
     df['rolling_avg_3'] = df.groupby('customer_id')['amount'].transform(lambda x: x.rolling(3).mean())
