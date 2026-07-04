@@ -16,4 +16,4 @@ Personal repo for consolidating ML engineering skills.
 
 ## Status
 
-Actively developing. Sessions 01-07 complete.
+Actively developing. Focus on SQL and Git this week.
