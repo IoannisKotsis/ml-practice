@@ -16,4 +16,4 @@ Personal repo for consolidating ML engineering skills.
 
 ## Status
 
-Actively developing. Focus on SQL and Git this week.
+Actively developing. Building fundamentals across Pandas, SQL, and Git — focus on SQL and Git this week.
