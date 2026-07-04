@@ -16,4 +16,4 @@ Personal repo for consolidating ML engineering skills.
 
 ## Status
 
-Work in progress.
+Actively developing. Sessions 01-07 complete.
