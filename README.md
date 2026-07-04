@@ -8,6 +8,12 @@ Personal repo for consolidating ML engineering skills.
 - SQL
 - Git
 
+## Tools
+
+- Python 3.12
+- PostgreSQL
+- WSL Ubuntu
+
 ## Status
 
 Work in progress.
